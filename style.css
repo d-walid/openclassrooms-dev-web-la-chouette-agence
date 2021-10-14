@@ -372,7 +372,20 @@ a:hover {
 
 .site-navigation li a {
   text-decoration: none;
-  margin-right: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-home {
+  list-style-type: none;
+}
+
+.contact-home a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -523,6 +536,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  margin-bottom: 15px;
 }
 
 .scrollToTop {
@@ -841,7 +855,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -996,11 +1010,7 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-  .bloc-xxl,
-  .bloc-xl,
-  .bloc-lg {
-    padding: 40px 0;
-  }
+
   .bloc-sm,
   .bloc-md {
     padding-left: 0;
