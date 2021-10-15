@@ -801,15 +801,23 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  background-color: #263155;
+}
+
+.bgc-light-slate-blue {
+  background-color: #324172;
 }
 
 .bgc-atomic-tangerine {
   background-color: #f3976c;
 }
 
+.bgc-blue {
+  background-color: #1a2135;
+}
+
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -857,6 +865,14 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
+}
+
+.blockquote-bloc {
+  border-radius: 35% 0%;
+  padding: 35px 35px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 1024px) {
