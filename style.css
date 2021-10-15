@@ -464,7 +464,8 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .mg-lg {
@@ -843,15 +844,15 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
